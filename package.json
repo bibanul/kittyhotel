@@ -14,8 +14,7 @@
     "mongodb": "latest",
     "passport": "0.1.x",
     "node-redis": "latest",
-    "mailer": "0.6.x",
-    "paynode": "latest"
+    "mailer": "0.6.x"
   },
   "engines": {
     "node": "0.8.x",
