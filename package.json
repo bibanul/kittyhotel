@@ -1,6 +1,13 @@
 {
   "name": "KittyHotel",
   "version": "0.0.1",
+  "homepage": {
+      "url": "http://kittyhotel.herokuapp.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/bibanul/kittyhotel.git"
+  }, 
   "dependencies": {
     "express": "3.0.x",
     "express-resource": "1.x.x",
