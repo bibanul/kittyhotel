@@ -1,4 +1,4 @@
-# README for a KittyHotel
+# README for KittyHotel
 I started this project to provide an integration example of the following technologies and also show how you can start 100% cloud based for free:
 
 Server: Node.js, Express.js, Restful API via Express-resource
