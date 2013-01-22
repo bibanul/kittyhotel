@@ -7,7 +7,8 @@
     "mongodb": "latest",
     "passport": "0.1.x",
     "node-redis": "latest",
-    "mailer": "0.6.x"
+    "mailer": "0.6.x",
+    "paynode": "latest"
   },
   "engines": {
     "node": "0.8.x",
