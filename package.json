@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "3.0.x",
+    "express-resource": "1.x.x"
     "mongodb": "latest",
     "passport": "0.1.x",
-    "node-redis": "0.1.x",
+    "node-redis": "latest",
     "mailer": "0.6.x"
   },
   "engines": {
