@@ -15,6 +15,7 @@
     "mongodb": "latest",
     "passport": "0.x.x",
     "node-redis": "latest",
+    "hiredis": "0.x.x",
     "mailer": "0.6.x"
   },
   "engines": {
