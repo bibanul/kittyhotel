@@ -3,11 +3,10 @@
  * GET Condo API.
  */
 
-var condoModel = './models/condo.js';
-
 module.exports = function (app) {
-    app.get('/api/condos', function (req, res, next) {
-      return condoModel.find(function (err, condos) {
+   app.get('/api/condos', function (req, res, next) {
+      var condo = require('./models/condoModel');
+      return condo.find(function (err, condos) {
         if (!err) {
           return res.send(condos);
         } else {

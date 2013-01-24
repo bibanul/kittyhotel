@@ -9,7 +9,7 @@ var application_root = __dirname
 var app = module.exports = express.createServer();
 
 // Configuration
-require('./routes/condo')(app);
+require('./routes')(app);
 
 app.configure(function(){
   app.set('views', application_root + '/views');
