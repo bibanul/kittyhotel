@@ -9,7 +9,6 @@ var application_root = __dirname
 var app = module.exports = express.createServer();
 
 // Configuration
-require('./routes')(app);
 
 app.configure(function(){
   app.set('views', application_root + '/views');
@@ -47,6 +46,9 @@ mongoose.connect(dbString, mongoOptions, function (err, res) {
   }
 });
 
+require('./routes/api')(app);
+require('./routes/index')(app);
+require('./routes/condo')(app, mongoose);
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
