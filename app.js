@@ -48,7 +48,7 @@ mongoose.connect(dbString, mongoOptions, function (err, res) {
 
 require('./routes/api')(app);
 require('./routes/index')(app);
-require('./routes/condo')(app, mongoose);
+require('./routes/condo')(app);
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {

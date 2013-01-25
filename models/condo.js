@@ -1,8 +1,7 @@
+var db = require('mongoose');
 
-exports = function(db){
-    var condoSchema = db.Schema({
-        roomNumber: String  //the unique condo room number to refer to
+var condoSchema = new db.Schema({
+        roomNumber: String
     });
     
-    return db.model('Condo', condoSchema);
-}
+module.exports = db.model('Condo', condoSchema);
